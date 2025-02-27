@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hamburger" onclick="toggleSidebar()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <script>
+        function toggleNav() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+    <aside class="sidebar">
+       
+        <div class="logo">
+            <img src="image/ict.jpg" alt="Course Logo">
+            <h2>ictHax</h2>
+        </div>
+    
+       
+        <div class="section">
+            <h3>Overview</h3>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Index</a></li>
+                <li><a href="#">Lesson</a></li>
+                <li><a href="#">Task</a></li>
+                <li><a href="#">Group</a></li>
+            </ul>
+        </div>
+    
+    
+        <div class="section">
+            <h3>Friends</h3>
+            <ul>
+                <li><a href="#">Pollob Kumar </a></li>
+                <li><a href="#">Roktim Sarker</a></li>
+                <li><a href="#">Naharul Islam</a></li>
+                <li><a href="#">Samiul Islam</a></li>
+            </ul>
+        </div>
+    
+   
+        <div class="section">
+            <h3>Settings</h3>
+            <ul>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </aside>
+
+
+    <div class="main-content">
+        
+        <header class="header">
+        
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <button type="submit">🔍</button>
+            </div>
+
+            
+            <div class="icons">
+                <button class="icon-btn">🔔</button> 
+                <button class="icon-btn">✉️</button> 
+            </div>
+        </header>
+
+        
+        <div class="online-courses-box">
+            <h5>Online Courses</h5>
+            <h2>Sharpen Your Skills with Professional Online Courses</h2>
+            <button class="join-now-btn">Join Now</button>
+        </div>
+
+       
+<div class="section2">
+    <h2>Continue Watching</h2>
+    <div class="course-list">
+        <div class="course-item">
+            <img src="image/thumbnail1.jpg" alt="Front-End Development Thumbnail" class="thumbnail">
+            <h3>Beginner’s Guide to Becoming a Professional Front-End Developer<br><p>Mentor:   Fahad's Tutorial </p></h3> 
+        
+    
+        </div>
+        <div class="course-item">
+            <img src="image/thumbnail2.jpg" alt="UI/UX Design Thumbnail" class="thumbnail">
+            <h3>Java Full Course for Beginners <br><p>Mentor:  Programming with Mosh </p></h3>  
+            
+        </div>
+        <div class="course-item">
+            <img src="image/thumbnail3.jpg" alt="Company Image Thumbnail" class="thumbnail">
+            <h3>C++ STL Complete Tutorial | Standard Template Library - One Shot <br><p>Mentor:  Apna College </p></h3> 
+            
+            
+        </div>
+    </div>
+</div>
+    </div>
+
+  
+    <div class="static-section">
+       
+        <div class="static-box profile-box">
+            <h2>Profile</h2>
+            <div class="profile-info">
+                <img src="image/profile.jpg" alt="Profile Picture" class="profile-pic">
+                <div class="profile-details">
+                    <span class="profile-name">Simanto Sarkar</span>
+                    <p class="profile-role">Pundra University of Science & Technology</p>
+                </div>
+            </div>
+            <button class="follow-btn">Follow</button>
+        </div>
+
+        
+        <div class="static-box mentor-box">
+            <h2>Your Mentors</h2>
+            <div class="mentor-list">
+                <div class="mentor-item">
+                    <span> Fahad's Tutorial</span>
+                    <button class="mentor-follow-btn">Follow</button>
+                </div>
+                <div class="mentor-item">
+                    <span>Apna College</span>
+                    <button class="mentor-follow-btn">Follow</button>
+                </div>
+                <div class="mentor-item">
+                    <span>Programming with Mosh</span>
+                    <button class="mentor-follow-btn">Follow</button>
+                </div>
+            </div>
+            <button class="see-all-btn">See All</button>
+        </div>
+
+        
+        <div class="lesson-section">
+            <h2>Your Lesson</h2>
+            <p>Mentor: Apna College</p>
+            <p>Type: UI/UX Design</p>
+            <p>Description: Understand Of UI/UX Design</p>
+            <button>Go to Lesson</button>
+        </div>
+    </div>
+</body>
+</html>
